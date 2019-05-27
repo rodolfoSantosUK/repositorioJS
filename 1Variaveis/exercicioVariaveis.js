@@ -17,6 +17,6 @@ console.log('Comida favorita :' + comidaFavorita );
 comidaFavorita = 'Pizza';
 console.log('Comida favorita ' + comidaFavorita);
 
-//Declara 5 variavesi diferente sem valores 
+//Declarar 5 variaveis diferentes sem valores 
 
 var time, professor, pais, endereco, rua ;
