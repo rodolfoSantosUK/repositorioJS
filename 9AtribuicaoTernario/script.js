@@ -1,26 +1,22 @@
-var videoGames = ['Switch','PS4','XBOX', '3DS'];
+var x = 5 ;
+var y = 10;
 
-var ultimoItem = videoGames.pop();
+
+x +=y;   // x = x +  y
+x -=y;   // x = x -  y;
+x *=y;   // x = x *  y;
+x /= y;  // x = x /  y;
+x %= y;  // x = x %  y;
+x **=y;  // x = x ** y; 
 
 
-for (var item = 0 ; item < videoGames.length ; item++) {
-    console.log(videoGames[item]);
 
-    if(videoGames[item] === 'PS4') {
-      break;
-    }
-}
+var numero = 20 ;
 
-//ArrayLike
+numero += 10;
 
-videoGames.forEach(function(vg){
-  console.log(vg);
-});  
+// Uso de ternário 
 
-var frutas = ['Banana','Pera','Maçã','Abacaxi','Uva'];
-
-frutas.forEach( function(fruta, index, frutas) {
-    frutas.pop();
-
-console.log(fruta, index, frutas);
-} ) ;
+var idade = 19;
+var podeBeber = (idade >= 18) ? 'Pode beber' : 'Não pode beber';
+console.log(podeBeber);
